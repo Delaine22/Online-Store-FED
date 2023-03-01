@@ -1,3 +1,9 @@
+function check(){
+var checar = window.document.getElementById('checkbtn')
+var p = document.getElementById('t&c')
+p.innerHTML = 'I agreed with the <a href="#"> Terms & Conditions>'
+}
+
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
